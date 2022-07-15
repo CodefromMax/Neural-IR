@@ -2,7 +2,7 @@ import csv
 import json
 
 csvfile = open('Haochen.csv', 'r')
-jsonfile = open('Haochen.json', 'w')
+jsonfile = open('Haochen1.json', 'w')
 
 reader = csv.DictReader(csvfile)
 for row in reader:
