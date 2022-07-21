@@ -1,8 +1,8 @@
 import csv
 import json
 
-csvfile = open('Data1.csv', 'r')
-jsonfile = open('Zhaoqi.json', 'w')
+csvfile = open('R2P.csv', 'r')
+jsonfile = open('R2P.json', 'w')
 
 reader = csv.DictReader(csvfile)
 for row in reader:
